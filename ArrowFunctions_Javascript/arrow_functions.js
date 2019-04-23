@@ -8,3 +8,13 @@ console.log(addTen(10));
 
 let addTenT = (num) => num + 10; 
 console.log(addTenT(19));
+
+let nums = [1,4,9];
+let squares = nums.map((num) => {
+    return Math.sqrt(num);
+});
+console.log(squares);
+
+let multiply = (num1,num2) => {return num1 * num2};
+console.log(multipl(2,10)) ;
+
