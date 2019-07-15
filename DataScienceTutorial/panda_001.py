@@ -17,9 +17,12 @@ plt.show() """
 # x = data['Defense']>200
 # print(data[x])
 
-print(data.head())
+# print(data.head())
 
-print(data['Type 1'].value_counts(dropna = False))
+# print(data['Type 1'].value_counts(dropna = False))
+
+data.boxplot(column='Attack', by='Legendary')
+plt.show()
 
 i = 0 
 while i!= 5 : 
