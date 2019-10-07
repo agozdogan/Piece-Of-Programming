@@ -17,3 +17,4 @@ f2 = data['V2'].values
 X = np.array(list(zip(f1, f2)))
 plt.scatter(f1, f2, c='black', s=7)
 plt.show()
+
